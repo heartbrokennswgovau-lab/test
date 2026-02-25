@@ -1,0 +1,23 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 3,
+  "name": "HeartBroken",
+  "version": "1.0.0",
+  "description": "HeartBroken",
+  "author": "HeartBroken",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "https://miniblox.io/*",
+    "https://miniblox.online/*",
+    "https://raw.githubusercontent.com/*"
+  ]
+}
